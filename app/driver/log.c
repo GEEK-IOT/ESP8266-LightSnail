@@ -10,10 +10,10 @@
 #include "driver/uart.h"
 #include "osapi.h"
 
-void Log_initialize(){
+//void Log_initialize(){
 //	system_set_os_print(0);
-	uart_init( 115200, 115200);
-};
+//	uart_init( 115200, 115200);
+//};
 //void Log_printf(const char* fmt,  ...){
 //	   system_set_os_print(1);
 //		os_printf_plus("\n");
